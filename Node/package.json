@@ -4,7 +4,9 @@
   "description": "node.js startingpoint for code katas and there unit tests",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "jest": "jest",
+    "test": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "author": "Robert Zettl",
   "license": "ISC",
